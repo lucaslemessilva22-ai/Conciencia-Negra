@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consciência Negra | 20 de Novembro</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e8;
+            color: #292929;
+        }
+
+        header {
+            background-color: #171717;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            color: #e9a326;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e9a326;
+        }
+
+        .banner {
+            background: linear-gradient(
+                rgba(0,0,0,0.65),
+                rgba(0,0,0,0.65)
+            ), url("https://images.unsplash.com/photo-1504609813442-a8924e83f76e");
+
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .banner h2 {
+            font-size: 45px;
+            color: #f2b632;
+            margin-bottom: 20px;
+        }
+
+        .banner p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #a64b16;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        .sobre {
+            text-align: center;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 280px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #a64b16;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        .importancia {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .importancia h2 {
+            color: #e9a326;
+        }
+
+        .personalidades {
+            background-color: #e9dfd0;
+        }
+
+        .frase {
+            background-color: #a64b16;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .frase h2 {
+            color: white;
+            font-size: 28px;
+        }
+
+        footer {
+            background-color: #171717;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav {
+                text-align: center;
+            }
+
+            .banner h2 {
+                font-size: 32px;
+            }
+
+            section {
+                padding: 40px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <h1>Consciência Negra</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">História</a>
+            <a href="#importancia">Importância</a>
+            <a href="#personalidades">Personalidades</a>
+        </nav>
+    </header>
+
+    <!-- INICIO -->
+    <div class="banner" id="inicio">
+        <h2>20 de Novembro</h2>
+        <p>
+            Consciência Negra: uma data de luta,
+            resistência, respeito, igualdade e valorização
+            da cultura afro-brasileira.
+        </p>
+    </div>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+        <h2>O que é Consciência Negra?</h2>
+
+        <div class="sobre">
+            <p>
+                A Consciência Negra representa a valorização
+                da história, da cultura e da identidade do povo
+                negro. É um momento de reflexão sobre a
+                resistência contra o racismo e as desigualdades
+                sociais.
+            </p>
+
+            <br>
+
+            <p>
+                O dia 20 de novembro foi escolhido em homenagem
+                a Zumbi dos Palmares, símbolo da resistência
+                negra no Brasil, morto nessa data em 1695.
+            </p>
+        </div>
+    </section>
+
+    <!-- IMPORTANCIA -->
+    <section class="importancia" id="importancia">
+        <h2>Por que essa data é importante?</h2>
+
+        <p>
+            A Consciência Negra é importante para reconhecer
+            a contribuição da população negra na formação
+            da sociedade brasileira.
+        </p>
+
+        <br>
+
+        <p>
+            Também é uma oportunidade para combater o racismo,
+            promover a igualdade, respeitar as diferenças e
+            valorizar a diversidade cultural.
+        </p>
+    </section>
+
+    <!-- PERSONALIDADES -->
+    <section class="personalidades" id="personalidades">
+        <h2>Personalidades Negras</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Zumbi dos Palmares</h3>
+                <p>
+                    Líder do Quilombo dos Palmares e símbolo
+                    da luta pela liberdade e resistência
+                    contra a escravidão.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Dandara dos Palmares</h3>
+                <p>
+                    Importante liderança na resistência
+                    de Palmares, símbolo da força e da luta
+                    das mulheres negras.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Carolina Maria de Jesus</h3>
+                <p>
+                    Escritora brasileira que retratou em
+                    suas obras a desigualdade social e a
+                    realidade das comunidades pobres.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FRASE -->
+    <div class="frase">
+        <h2>
+            "Nossa história é feita de resistência,
+            força, cultura e identidade."
+        </h2>
+        <p>Respeitar é reconhecer. Valorizar é transformar.</p>
+    </div>
+
+    <!-- RODAPE -->
+    <footer>
+        <p>© 2026 - Projeto Consciência Negra</p>
+        <p>Educação, respeito, igualdade e diversidade.</p>
+    </footer>
+
+</body>
+</html>
